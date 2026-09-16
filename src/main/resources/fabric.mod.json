@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "x-client",
   "version": "${version}",
-  "name": "X Client",
+  "name": "X ClientMacro",
   "description": "A modular, performance-focused Fabric client. HUDs, cosmetic visuals, and optimization modules - no unfair advantage.",
   "authors": [
     {
-      "name": "ridzzxmc",
+      "name": "yamorxridzzxmc",
       "contact": {
         "homepage": "https://tiktok.com/@ridzzxmc"
       }
