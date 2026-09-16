@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "x-client",
+  "version": "${version}",
+  "name": "X Client",
+  "description": "A modular, performance-focused Fabric client. HUDs, cosmetic visuals, and optimization modules - no unfair advantage.",
+  "authors": [
+    {
+      "name": "ridzzxmc",
+      "contact": {
+        "homepage": "https://tiktok.com/@ridzzxmc"
+      }
+    }
+  ],
+  "contact": {
+    "homepage": "https://tiktok.com/@ridzzxmc"
+  },
+  "license": "MIT",
+  "icon": "assets/xclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ridzzxmc.xclient.XClientMod"
+    ]
+  },
+  "mixins": [
+    "xclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

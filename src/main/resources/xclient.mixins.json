@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "ridzzxmc.xclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinKeyboard",
+    "MixinMouse",
+    "MixinPlayerEntityRenderer",
+    "MixinLivingEntityRenderer",
+    "MixinClientPlayerInteractionManager",
+    "HandledScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
